@@ -1,0 +1,463 @@
+/* ============================
+   APP CONTAINER & HEADER
+   ============================ */
+.app-container {
+  min-height: 100vh;
+  padding: 28px 24px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.header-top {
+  margin-bottom: 20px;
+}
+
+.header-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+}
+
+.app-header h1 {
+  font-size: 38px;
+  font-weight: 800;
+  color: var(--color-navy-dark);
+  margin-bottom: 8px;
+  letter-spacing: -0.03em;
+}
+
+.app-header p {
+  font-size: 17px;
+  color: var(--text-muted);
+}
+
+/* ============================
+   STUDENT STRIP
+   ============================ */
+.student-strip {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 28px;
+  background: linear-gradient(135deg, #f0f4ff, #e8f0fe);
+  border: 1px solid #c7d7fd;
+  border-radius: 14px;
+  padding: 14px 28px;
+  margin: 0 auto;
+}
+
+.student-detail {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.detail-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #6b7280;
+}
+
+.detail-value {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+.score-detail {
+  border-left: 1px solid #c7d7fd;
+  padding-left: 20px;
+}
+
+.score-value {
+  color: #15803d;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+/* ============================
+   SCORE BANNER
+   ============================ */
+.score-banner {
+  border-radius: 14px;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.score-banner.perfect {
+  background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+  border: 1px solid #86efac;
+}
+
+.score-banner.good {
+  background: linear-gradient(135deg, #fef9c3, #fef08a);
+  border: 1px solid #fcd34d;
+}
+
+.score-banner.needs-work {
+  background: linear-gradient(135deg, #eff6ff, #dbeafe);
+  border: 1px solid #93c5fd;
+}
+
+.score-banner-inner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 24px;
+}
+
+.score-emoji {
+  font-size: 36px;
+  flex-shrink: 0;
+}
+
+.score-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.score-text strong {
+  font-size: 17px;
+  color: #0f172a;
+}
+
+.score-text span {
+  font-size: 13px;
+  color: #475569;
+}
+
+.score-badge {
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 8px 16px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+/* ============================
+   MAIN LAYOUT
+   ============================ */
+.app-content {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+@media (min-width: 1100px) {
+  .app-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.board-section {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.clues-section {
+  flex: 1;
+}
+
+/* ============================
+   CONTROLS / BUTTONS
+   ============================ */
+.controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.btn {
+  padding: 11px 22px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn.primary {
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.3);
+}
+
+.btn.primary:hover {
+  box-shadow: 0 4px 16px rgba(37,99,235,0.4);
+  transform: translateY(-1px);
+}
+
+.btn.primary.active {
+  background: linear-gradient(135deg, #15803d, #16a34a);
+  box-shadow: 0 2px 8px rgba(22,163,74,0.3);
+}
+
+.btn.download {
+  background: linear-gradient(135deg, #7c3aed, #a855f7);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(124,58,237,0.3);
+}
+
+.btn.download:hover {
+  box-shadow: 0 4px 16px rgba(124,58,237,0.4);
+  transform: translateY(-1px);
+}
+
+.btn.secondary {
+  background: #ffffff;
+  color: var(--color-navy);
+  border: 1px solid var(--color-grey-200);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.btn.secondary:hover {
+  background: var(--color-grey-50);
+  border-color: var(--color-grey-300);
+}
+
+/* ============================
+   PRINT / PDF — SINGLE A4 LANDSCAPE
+   A4 landscape: 297mm × 210mm  (at 96dpi ≈ 1123px × 794px)
+   We use transform scale to shrink the screen layout into one page.
+   ============================ */
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 8mm;
+  }
+
+  /* ---------- kill everything that isn't the printable area ---------- */
+  body {
+    background: white !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Hide interactive / non-content elements */
+  .controls,
+  .student-form-overlay,
+  .score-banner {
+    display: none !important;
+  }
+
+  /* ---------- outer page wrapper ---------- */
+  .app-container {
+    /* A4 landscape usable area ≈ 281mm × 194mm at 8mm margins */
+    width: 281mm;
+    height: 194mm;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 281mm !important;
+    overflow: hidden;
+    display: block;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* ---------- header: compact single line ---------- */
+  .app-header {
+    margin-bottom: 6px !important;
+  }
+
+  .header-badge {
+    display: none !important;
+  }
+
+  .app-header h1 {
+    font-size: 16px !important;
+    margin-bottom: 3px !important;
+    color: #1e3a8a !important;
+  }
+
+  .app-header p {
+    font-size: 10px !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* ---------- student strip: tight ---------- */
+  .student-strip {
+    padding: 5px 14px !important;
+    gap: 6px 18px !important;
+    margin-bottom: 6px !important;
+    border-radius: 8px !important;
+    background: #e8f0fe !important;
+  }
+
+  .detail-label {
+    font-size: 8px !important;
+  }
+
+  .detail-value {
+    font-size: 11px !important;
+  }
+
+  .score-detail {
+    display: flex !important;
+  }
+
+  .score-value {
+    font-size: 12px !important;
+  }
+
+  /* ---------- main layout: row, no gap ---------- */
+  .app-content {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    gap: 8px !important;
+    width: 281mm;
+    height: 175mm;
+    overflow: hidden;
+  }
+
+  /* ---------- board section ---------- */
+  .board-section {
+    flex: none !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0 !important;
+    /* Grid is 20 cols × 21 rows.
+       At 44px/cell: 20×44=880px wide, 21×44=924px tall.
+       Target width ≈ 155mm = ~587px  → scale = 587/880 ≈ 0.667
+       Target height ≈ 175mm = ~662px → scale = 662/924 ≈ 0.716
+       Use 0.60 to be safe on all printers */
+    width: 152mm;
+    overflow: visible;
+  }
+
+  .crossword-grid-container {
+    overflow: visible !important;
+    padding: 4px !important;
+    border-radius: 6px !important;
+    background: #f1f5f9 !important;
+    transform-origin: top left;
+    transform: scale(0.58);
+    /* After scale(0.58): 880*0.58=510px≈135mm wide, 924*0.58=536px≈142mm tall */
+    /* We need to collapse the phantom space left by the scaled-down element */
+    width: calc(100% / 0.58);
+    /* Collapse vertical phantom space */
+    margin-bottom: calc(-924px * 0.42);
+  }
+
+  /* ---------- grid cells: restore print-safe borders ---------- */
+  .crossword-grid {
+    background-color: #333 !important;
+    border-color: #333 !important;
+  }
+
+  .crossword-cell {
+    width: 44px !important;
+    height: 44px !important;
+    background-color: #fff !important;
+  }
+
+  .crossword-cell.empty {
+    background-color: transparent !important;
+  }
+
+  .crossword-cell.correct {
+    background-color: #dcfce7 !important;
+  }
+
+  .crossword-cell.incorrect {
+    background-color: #fee2e2 !important;
+  }
+
+  .cell-number {
+    font-size: 9px !important;
+    color: #444 !important;
+  }
+
+  .cell-input {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #0f172a !important;
+  }
+
+  /* ---------- clues section ---------- */
+  .clues-section {
+    flex: 1 !important;
+    overflow: hidden;
+    height: 175mm;
+  }
+
+  .clues-container {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 8px !important;
+    padding: 8px !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+    border: 1px solid #e2e8f0 !important;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .clue-column {
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .clue-header {
+    font-size: 11px !important;
+    margin-bottom: 5px !important;
+    padding-bottom: 4px !important;
+    color: #1e3a8a !important;
+  }
+
+  .clue-list {
+    gap: 2px !important;
+  }
+
+  .clue-item {
+    font-size: 8.5px !important;
+    padding: 2px 4px !important;
+    color: #1e293b !important;
+    border-radius: 2px !important;
+    transform: none !important;
+    line-height: 1.35 !important;
+  }
+
+  .clue-item strong {
+    color: #1e3a8a !important;
+  }
+
+  .clue-item.active {
+    background-color: transparent !important;
+    transform: none !important;
+  }
+}
+

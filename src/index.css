@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Color Palette */
+  --color-navy: #1e3a8a;
+  --color-navy-light: #2563eb;
+  --color-navy-dark: #0f172a;
+  
+  --color-white: #ffffff;
+  
+  --color-grey-50: #f8fafc;
+  --color-grey-100: #f1f5f9;
+  --color-grey-200: #e2e8f0;
+  --color-grey-300: #cbd5e1;
+  --color-grey-500: #64748b;
+  --color-grey-800: #1e293b;
+  
+  --color-black: #0f172a;
+  
+  /* Semantic Colors */
+  --bg-main: var(--color-grey-50);
+  --bg-card: var(--color-white);
+  --text-main: var(--color-black);
+  --text-muted: var(--color-grey-500);
+  
+  --cell-bg: var(--color-white);
+  --cell-border: var(--color-grey-300);
+  --cell-bg-active: #dbeafe; /* Light blue for active word */
+  --cell-bg-focused: #bfdbfe; /* Slightly darker for the exact focused cell */
+  --cell-bg-correct: #dcfce7; /* Light green for correct */
+  --cell-bg-incorrect: #fee2e2; /* Light red for incorrect */
+  
+  --font-sans: 'Outfit', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base button styles */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Animations */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "answer": "MENDELEEV",
+    "clue": "Periodic table given by?",
+    "x": 19,
+    "y": 0,
+    "direction": "down",
+    "number": 1
+  },
+  {
+    "answer": "LEAD",
+    "clue": "Yellow precipitate with KI for?",
+    "x": 6,
+    "y": 1,
+    "direction": "down",
+    "number": 2
+  },
+  {
+    "answer": "LASSAIGNE",
+    "clue": "Detection of N,S,halogen by?",
+    "x": 11,
+    "y": 1,
+    "direction": "across",
+    "number": 3
+  },
+  {
+    "answer": "BURETTE",
+    "clue": "Measures volume accurately?",
+    "x": 3,
+    "y": 2,
+    "direction": "across",
+    "number": 4
+  },
+  {
+    "answer": "DIAMOND",
+    "clue": "Hardest natural substance?",
+    "x": 13,
+    "y": 3,
+    "direction": "across",
+    "number": 5
+  },
+  {
+    "answer": "BLUEVITRIOL",
+    "clue": "Blue coloured hydrated salt CuSO4.5H2O?",
+    "x": 2,
+    "y": 10,
+    "direction": "down",
+    "number": 6
+  },
+  {
+    "answer": "GRAPHITE",
+    "clue": "Non-metal which is good conductor?",
+    "x": 0,
+    "y": 5,
+    "direction": "down",
+    "number": 7
+  },
+  {
+    "answer": "GATTERMANN",
+    "clue": "Benzene to benzaldehyde with CO+HCl?",
+    "x": 3,
+    "y": 6,
+    "direction": "down",
+    "number": 8
+  },
+  {
+    "answer": "HAEMATITE",
+    "clue": "Ore of iron?",
+    "x": 6,
+    "y": 7,
+    "direction": "down",
+    "number": 9
+  },
+  {
+    "answer": "ALKYNE",
+    "clue": "Unsaturated with triple bond?",
+    "x": 9,
+    "y": 5,
+    "direction": "across",
+    "number": 10
+  },
+  {
+    "answer": "DEBROGLIE",
+    "clue": "Dual nature of electron?",
+    "x": 9,
+    "y": 7,
+    "direction": "across",
+    "number": 11
+  },
+  {
+    "answer": "ACTIVATION",
+    "clue": "Which energy needed to start a reaction?",
+    "x": 6,
+    "y": 8,
+    "direction": "across",
+    "number": 12
+  },
+  {
+    "answer": "IDEALGAS",
+    "clue": "Law PV=nRT for which gas?",
+    "x": 13,
+    "y": 8,
+    "direction": "down",
+    "number": 13
+  },
+  {
+    "answer": "SORENSEN",
+    "clue": "pH scale invented by?",
+    "x": 1,
+    "y": 11,
+    "direction": "down",
+    "number": 14
+  },
+  {
+    "answer": "BENZENE",
+    "clue": "Ethyne trimerization gives?",
+    "x": 17,
+    "y": 13,
+    "direction": "down",
+    "number": 15
+  },
+  {
+    "answer": "REACTIVITY",
+    "clue": "Iron displaces Cu from CuSO4 due to higher?",
+    "x": 1,
+    "y": 13,
+    "direction": "across",
+    "number": 16
+  },
+  {
+    "answer": "ESTER",
+    "clue": "Alcohol test with acid?",
+    "x": 14,
+    "y": 13,
+    "direction": "down",
+    "number": 17
+  },
+  {
+    "answer": "MOLE",
+    "clue": "Unit of mole?",
+    "x": 7,
+    "y": 15,
+    "direction": "across",
+    "number": 18
+  },
+  {
+    "answer": "EINSTEIN",
+    "clue": "E=mc2, photoelectric effect Nobel 1921?",
+    "x": 10,
+    "y": 15,
+    "direction": "across",
+    "number": 19
+  },
+  {
+    "answer": "NITRATE",
+    "clue": "Brown ring test for?",
+    "x": 1,
+    "y": 18,
+    "direction": "across",
+    "number": 20
+  }
+]
