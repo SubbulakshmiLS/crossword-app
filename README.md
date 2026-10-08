@@ -1,4 +1,3 @@
-
 # crossword-app
 
 # React + TypeScript + Vite
